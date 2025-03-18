@@ -31,7 +31,7 @@ ezra({ nomCom: "tagall", categorie: 'Group', reaction: "📯" }, async (dest, zk
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   var tag = ""; 
   tag += `========================\n  
-        🌟 *LUCKY-𝐌𝐃*𝕋𝔸𝔾𝔾𝔼𝔻 🌟
+        🌟 *ঔৣ⃕͜🌹Zayan🌹 ⃟༘✪͜͡࿐*𝕋𝔸𝔾𝔾𝔼𝔻 🌟
 ========================\n
 👥 Group : ${nomGroupe} 🚀 
 👤 Autor : *${nomAuteurMessage}* 👋 
@@ -72,7 +72,7 @@ ezra({ nomCom: "link", categorie: 'Group', reaction: "🚜" }, async (dest, zk, 
 
   let mess = `hello ${nomAuteurMessage} , here is the group link for ${nomGroupe} \n
 
-Grp link :${lien} \n\n★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢  LUCKY 𝚃𝚣`
+Grp link :${lien} \n\n★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢  ঔৣ⃕͜🌹Zayan🌹 ⃟༘✪͜͡࿐`
   repondre(mess)
 
 
@@ -370,7 +370,7 @@ ezra({ nomCom: "info", categorie: 'Group' }, async (dest, zk, commandeOptions) =
     try {
       if (!arg || !arg[0] || arg === ' ') { repondre("antilink on to activate the anti-link feature\nantilink off to deactivate the anti-link feature\nantilink action/remove to directly remove the link without notice\nantilink action/warn to give warnings\nantilink action/delete to remove the link without any sanctions\n\nPlease note that by default, the anti-link feature is set to delete.") ; return};
      
-      if(arg[0] === 'on') {
+      if(arg[0] === 'yes') {
 
       
        if(enetatoui ) { repondre("the antilink is already activated for this group")
